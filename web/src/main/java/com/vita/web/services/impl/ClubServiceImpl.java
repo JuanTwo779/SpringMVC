@@ -4,10 +4,12 @@ import com.vita.web.dto.ClubDto;
 import com.vita.web.models.Club;
 import com.vita.web.repository.ClubRepository;
 import com.vita.web.services.ClubService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class ClubServiceImpl implements ClubService {
     private ClubRepository clubRepository;
 
